@@ -1,5 +1,5 @@
 {% set name = "bioio-base" %}
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bioio_base-{{ version }}.tar.gz
-  sha256: ae329fd4d4bea0cadf1399d6fc3f5f6dfbf7f9809dae77186220b458507162d6
+  sha256: dfa3c1f9d373ca3a56f66e3694286a3db20dab972d9fe455eebe0d0ddb075a7d
 
 build:
   noarch: python
