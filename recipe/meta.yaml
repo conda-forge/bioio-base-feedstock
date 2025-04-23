@@ -12,10 +12,10 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  ignore_prefix_files:
-    - docs/
-  number: 1
+  script:
+    - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+    - rm -rf $SP_DIR/docs/
+  number: 2
 
 requirements:
   host:
