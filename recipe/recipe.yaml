@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: bioio-base
-  version: "4.0.0"
+  version: "4.0.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/bioio_base-${{ version }}.tar.gz
-  sha256: de04b3ae7fc7be57cc68bf813e43a1b94612e19390f516427d9eeb7efe604ae7
+  sha256: b096b95777b8fe24028a0770c5a07bbcb85420b6b478394db2f48f3fda97fc46
 
 build:
   number: 0
